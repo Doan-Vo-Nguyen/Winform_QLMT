@@ -93,6 +93,7 @@ namespace Winform_QLMT
             return id;
         }
         // FUNCTION CHANGE DATA WHEN RUN SQL COMMAND( INSERT, UPDATE, DELETE)
+        // Done All
         public static void runSQL(string sql, string[] name = null, object[] value = null)
         {
             cmd = new SqlCommand(sql, conn);
